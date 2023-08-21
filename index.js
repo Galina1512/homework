@@ -1,2 +1,2 @@
-const homework = require('./homework2');
-console.log('homework: ', homework);
+const person = require('mypackage');
+console.log(person);
