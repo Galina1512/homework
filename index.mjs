@@ -1,4 +1,4 @@
-import { transformObject } from 'mypackage';
+import { transformObject } from './node_modules/mypackage/chart.js';
 
 const inputObject = {
   name: 'максим лескин',
