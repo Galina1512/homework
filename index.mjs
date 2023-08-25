@@ -1,4 +1,4 @@
-import { transformObject } from './node_modules/mypackage/chart.js';
+import chartJsModule from 'mypackage';
 
 const inputObject = {
   name: 'максим лескин',
@@ -6,5 +6,5 @@ const inputObject = {
   purpose: 'карьерный рост'
 };
 
-const outputObject = transformObject(inputObject);
+const outputObject = chartJsModule.transformObject(inputObject);
 console.log(outputObject);
